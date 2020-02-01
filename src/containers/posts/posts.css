@@ -1,0 +1,16 @@
+.posts{
+    position:relative;
+    
+    max-width:360px;
+    width:100%;
+    height:360px;
+    
+    background:green;
+    
+    display:flex;
+    flex-wrap: wrap;
+    margin:4rem 0px;
+    border-radius:5px;
+    left:50%;
+    transform:translate(-50%,0);
+}

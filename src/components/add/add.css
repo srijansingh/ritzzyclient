@@ -1,0 +1,70 @@
+.Add{
+    position:relative;
+    max-width:350px;
+    width:100%;
+    display:flex;
+    background:white;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    height:500px;
+    left:50%;
+    margin:4rem 0px;
+    transform:translate(-50%,0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new{
+    width:100%;
+    top:0px;
+    display:flex;
+    justify-content: space-between;
+    height:3rem;
+    align-items: center;
+    background:orange;
+    color:white;
+    font-size:1.5rem;
+}
+.new .btnss{
+    padding:0rem 2rem;
+}
+.audio{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:50px;
+    border-radius:25px;
+    
+}
+.audii-active{
+    background:blue;
+}
+.audiodes{
+   width:100%;
+}
+.audii{
+    background:red;
+    height:50px;
+    width:50px;
+}
+.textarea{
+
+    resize:none;
+    width:90%;
+    height:240px;
+    border:none;
+    font-size:1.3rem;
+    font-family:serif;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.upload{
+    width:100%;
+    height:2.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    font-size:1.5rem;
+    background:orange;
+    color:white;
+    font-weight:bold;
+}

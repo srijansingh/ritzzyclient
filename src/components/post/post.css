@@ -1,0 +1,185 @@
+.posts{
+    position:relative;
+
+    max-width:360px;
+    width:100%;
+    height:360px;
+
+    background:white;
+
+    display:flex;
+    flex-wrap: wrap;
+    margin:4rem 0px;
+    border-radius:5px;
+    left:50%;
+    transform:translate(-50%, 0);
+}
+.post{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+   
+}
+.profile{
+    height:3rem;
+    display:flex;
+    align-items:center;
+    padding:0px 0.2rem;
+    box-shadow: 0 1px 0px rgba(57, 63, 72, 0.3);
+}
+.spinner{
+    position:absolute;
+    width:100%;
+    left:50%;
+    transform:translate(-50%,0);
+    height:150px;
+    font-size:30px;
+    font-weight:bold;
+    color:orangered;
+    text-align:center;
+    animation-name:spin;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    border-radius:50%;
+}
+
+@keyframes spin {
+    0%{
+        color:white;
+        transform:translate(-50%, 0) rotate(360deg);
+        opacity:0;
+    }
+    20%{
+        color:pink;
+       
+    }
+    40%{
+        color:red;
+       
+    }
+    60%{
+        color:blue;
+    }
+    80%{
+        color:orange;
+        
+        transform:translate(-50%, 0) rotate(0deg);
+    }
+}
+.image{
+    background:orange;
+    height:2rem;
+    width:2rem;
+    border-radius:50%;
+}
+.image img{
+height:2rem;
+    width:2rem;
+    border-radius:50%;
+}
+
+.name{
+    color:#ff9800;
+    margin:0 0.2rem;
+}
+
+.audios{
+    height:250px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
+.avtar{
+    height:150px;
+    width:150px;
+    background:orange;
+    border-radius:50%;
+    /* border:2px dotted white; */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.avtar-active{
+    height:150px;
+    width:150px;
+    background:white;
+    border-radius:50%;
+    border:2px solid white;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name:radioo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes radioo{
+    0%{
+        border:3px solid transparent;
+    }
+    50%{
+        border:3px solid white;
+        transform:rotate(360deg);
+        transition:3s ease;
+    }
+}
+
+.avtar img, .avtar-active img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+}
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    width:100%;
+    color:orange;
+    height: 2px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.react{
+    height:62px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 1rem;
+    color:orange;
+    font-weight: bold;
+}
+
+.heart{
+    font-size:1.8rem;
+}
+.icon-red{
+    color:red;
+}
+.icon-orange{
+    color:orange;
+}
+.times{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    justify-content: space-between;
+    color:red;
+}
+.comments{
+    display:flex;
+    width:60px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+

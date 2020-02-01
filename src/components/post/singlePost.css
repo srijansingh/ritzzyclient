@@ -1,0 +1,13 @@
+.singlepost{
+    width:auto;
+    height:120px;
+    background: orange;
+    border:1px solid white;
+}
+
+.play-singlepost {
+    width: auto;
+    height: 120px;
+    background: red;
+    border: 1px solid white;
+}
